@@ -9,7 +9,7 @@ wget https://neo4j.com/artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz -O 
 
 ### Untar neo4j packages
 ```
-cp 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz'  neo4j-enterprise-4.4.10-unix.tar.gz && rm 'artifact.php?name=neo4j-enterprise-4.4.10-unix.tar.gz' && tar -xvf neo4j-enterprise-4.4.10-unix.tar.gz
+tar -xvf neo4j-enterprise-4.4.10-unix.tar.gz
 ```
 
 ### download plugim
